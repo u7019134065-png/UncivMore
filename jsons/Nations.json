@@ -123,7 +123,7 @@
 			"[+1] Movement <for [Water] units>",
 			"[+2 Gold] from every [Trade Route] [in all cities]",
 			"[+25]% Strength <when defending> <for [Water] units>",
-			"[-25]% cost of constructing [Harbor] buildings [in all cities]",
+			"[-25]% Gold cost of purchasing [Water] units [in all cities]",
 			"[+1 Culture] from every [Lakes] tiles [in all cities]"
 		],
 		"cities": [

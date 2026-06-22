@@ -419,7 +419,7 @@
 		"requiredBuilding": "Research Lab",
 		"requiredTech": "Robotics",
 		"uniques": [
-			"[-25]% cost of constructing [Spaceship part] units [in this city]",
+			"[+25]% Production when constructing [Spaceship part] units [in this city]",
 			"[+1 Science] from [Aluminum] tiles [in this city]"
 		]
 	},
@@ -486,7 +486,7 @@
 		"uniques": [
 			"Destroyed when the city is captured",
 			"[+25]% Strength <when defending> <for [All] units> <within [2] tiles of this [City]>",
-			"[-15]% Production cost of constructing [Military] units [in this city]"
+			"[+15]% Production when constructing [Military] units [in this city]"
 		]
 	},
 	{
