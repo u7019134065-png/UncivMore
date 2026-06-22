@@ -1,0 +1,12 @@
+// Mod configuration for UncivMore
+{
+  name: UncivMore
+  modUuid: unciv-more-mod
+  isBaseRuleset: false
+  tileset: FantasyHex
+  unitset: Default
+  authors: [UncivMore Team]
+  description: Мод для Unciv, добавляющий большое количество новых наций, юнитов, зданий и другого контента.
+  version: 1.0.0
+  lastUpdated: 2025-06-22
+}
