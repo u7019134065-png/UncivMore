@@ -1,0 +1,642 @@
+[
+	{
+		"name": "Cossack Barracks",
+		"replaces": "Barracks",
+		"uniqueTo": "Ukraine",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"New [Military] units start with [15] XP [in this city]",
+			"New [Military] units start with the [Morale] promotion [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Kyiv Fortress",
+		"replaces": "Walls",
+		"uniqueTo": "Ukraine",
+		"cityStrength": 8,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Destroyed when the city is captured",
+			"[-10]% cost of constructing [Military] units [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"
+		],
+		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Breadbasket Granary",
+		"replaces": "Granary",
+		"uniqueTo": "Ukraine",
+		"food": 3,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+2 Food] from [Wheat] tiles [in this city]",
+			"[+1 Happiness] [in this city]"
+		],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "St. Sophia Cathedral",
+		"replaces": "Temple",
+		"uniqueTo": "Ukraine",
+		"culture": 4,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"specialistSlots": {"Artist": 1},
+		"uniques": [
+			"Required building is [Monument]",
+			"Destroyed when the city is captured",
+			"[+1 Faith] [in this city]",
+			"[+2 Culture] from [Wheat] tiles [in this city]"
+		],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Hetman's Court",
+		"replaces": "Market",
+		"uniqueTo": "Ukraine",
+		"gold": 3,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": [
+			"[+1 Gold] from every [Wheat] tiles [in this city]",
+			"[+25]% Gold from Trade Routes [in this city]",
+			"Allied [City-States] provide [+2] Gold [in this city]"
+		],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Lviv Workshop",
+		"replaces": "Workshop",
+		"uniqueTo": "Ukraine",
+		"cost": 100,
+		"maintenance": 2,
+		"production": 3,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 15},
+		"uniques": [
+			"[+1 Production] from [Stone] tiles [in this city]"
+		],
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Odesa Seaport",
+		"replaces": "Harbor",
+		"uniqueTo": "Ukraine",
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water",
+			"Must be next to [Coast]",
+			"[+2 Gold] from [Fish] tiles [in this city]",
+			"[+15]% Production when constructing [Water] units [in this city]"
+		],
+		"requiredTech": "Compass"
+	},
+	{
+		"name": "Hetman's Arsenal",
+		"replaces": "Armory",
+		"uniqueTo": "Ukraine",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Required building is [Barracks]",
+			"New [Military] units start with [20] XP [in this city]",
+			"Destroyed when the city is captured",
+			"[+15]% Production when constructing [Mounted] units [in this city]"
+		],
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Cossack Stable",
+		"replaces": "Stable",
+		"uniqueTo": "Ukraine",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Movement] <for [Mounted] units> [in this city]"
+		],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Maidan Square",
+		"uniqueTo": "Ukraine",
+		"cost": 150,
+		"culture": 4,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+2 Culture] from [All] Trade Routes [in this city]",
+			"[+10]% Great Person generation [in this city]",
+			"[-10]% Culture cost of natural border growth [in all cities]"
+		],
+		"requiredTech": "Civil Service"
+	},
+
+	{
+		"name": "Suspicious Workshop",
+		"replaces": "Workshop",
+		"uniqueTo": "Cheaters",
+		"cost": 80,
+		"maintenance": 2,
+		"production": 3,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 15},
+		"uniques": [
+			"[+25]% Production when constructing [Spy] units [in this city]",
+			"[+1 Production] from every [Pillaged] tile [in this city]",
+			"[+10]% Production when constructing [All] buildings [in this city]"
+		],
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Glitch Walls",
+		"replaces": "Walls",
+		"uniqueTo": "Cheaters",
+		"cityStrength": 7,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Required tech is [Masonry]",
+			"Destroyed when the city is captured",
+			"[-50]% Gold cost of upgrading [Military] units [in this city]",
+			"[+25]% City Strength from defensive buildings [in this city]"
+		],
+		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Cheat Engine Temple",
+		"replaces": "Temple",
+		"uniqueTo": "Cheaters",
+		"culture": 3,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"specialistSlots": {"Artist": 1},
+		"uniques": [
+			"Required building is [Monument]",
+			"Destroyed when the city is captured",
+			"[+1 Faith] from every [Ancient Ruins] [in this city]",
+			"[+2 Gold] from [All] Trade Routes [in this city]",
+			"[-25]% Faith cost of purchasing units [in this city]"
+		],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Exploit Market",
+		"replaces": "Market",
+		"uniqueTo": "Cheaters",
+		"gold": 4,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": [
+			"[+100]% Gold from [Pillaging] [in this city]",
+			"[+1 Gold] from every [2] Population [in this city]",
+			"[-25]% Gold cost of purchasing tiles [in this city]"
+		],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Glitch Academy",
+		"replaces": "University",
+		"uniqueTo": "Cheaters",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Scientist": 2},
+		"uniques": [
+			"Required building is [Library]",
+			"[+2 Science] from [Jungle] tiles [in this city]",
+			"Gain a free [Technology] <upon discovering a [World Wonder]>",
+			"[-50]% Science cost of [Research Agreements] [in this city]"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Hax Fortress",
+		"replaces": "Castle",
+		"uniqueTo": "Cheaters",
+		"cityStrength": 4,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Required building is [Walls]",
+			"Required tech is [Chivalry]",
+			"Destroyed when the city is captured",
+			"[+25]% XP from combat [in this city]",
+			"All [Military] units in this city gain [2] XP per turn"
+		],
+		"requiredTech": "Chivalry"
+	},
+	{
+		"name": "Save Scummer Granary",
+		"replaces": "Granary",
+		"uniqueTo": "Cheaters",
+		"food": 3,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"Gain [+50] Food <when conquering a [City]> [in this city]",
+			"[-10]% Unhappiness from [Population] [in this city]"
+		],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Lag Switch Bank",
+		"replaces": "Bank",
+		"uniqueTo": "Cheaters",
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 33},
+		"uniques": [
+			"Required building is [Market]",
+			"Required tech is [Banking]",
+			"[+2 Gold] from every [2] Population [in this city]",
+			"[-15]% Gold cost of purchasing items [in this city]",
+			"Earn [+10]% interest on treasury [Gold] per turn [in this city]"
+		],
+		"requiredTech": "Banking"
+	},
+	{
+		"name": "Script Keeper's Court",
+		"uniqueTo": "Cheaters",
+		"cost": 200,
+		"culture": 3,
+		"gold": 3,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+25]% Great Person generation [in this city]",
+			"Gain [+50] Gold <when a [Military] unit defeats another [Military] unit> [in this city]",
+			"[-25]% cost of purchasing [Great Person] units [in this city]"
+		],
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Debugger's Lab",
+		"uniqueTo": "Cheaters",
+		"cost": 300,
+		"science": 5,
+		"culture": 1,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"specialistSlots": {"Scientist": 2},
+		"uniques": [
+			"Required building is [Public School]",
+			"[+1 Science] per [2] population [in this city]",
+			"[-15]% Science cost of technologies [in this city]"
+		],
+		"requiredTech": "Scientific Theory"
+	},
+
+	{
+		"name": "Samsung Factory",
+		"replaces": "Factory",
+		"uniqueTo": "Samsung",
+		"cost": 300,
+		"production": 6,
+		"percentStatBonus": {"production": 15},
+		"specialistSlots": {"Engineer": 2},
+		"uniques": [
+			"Required building is [Workshop]",
+			"Required resource is [Coal]",
+			"Required tech is [Steam Power]",
+			"[+2 Science] per [1] Production [in this city]",
+			"New [Military] units start with [10] XP [in this city]"
+		],
+		"maintenance": 3,
+		"hurryCostModifier": 0
+	},
+	{
+		"name": "Semiconductor Foundry",
+		"replaces": "Forge",
+		"uniqueTo": "Samsung",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Required tech is [Metal Casting]",
+			"Required nearby improved resources are [Iron]",
+			"[+15]% Production when constructing [All] units [in this city]",
+			"[+2 Production] from [Aluminum] tiles [in this city]",
+			"[+2 Science] from [Iron] tiles [in this city]"
+		]
+	},
+	{
+		"name": "OLED Pavilion",
+		"replaces": "Temple",
+		"uniqueTo": "Samsung",
+		"culture": 4,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"specialistSlots": {"Artist": 1},
+		"uniques": [
+			"Required building is [Monument]",
+			"Destroyed when the city is captured",
+			"[+1 Faith] from [Electricity] tiles [in this city]",
+			"[+1 Culture] from [all] buildings [in this city]",
+			"Empire enters a [Golden Age] <when built> [in this city]"
+		],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Tech Academy",
+		"replaces": "University",
+		"uniqueTo": "Samsung",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Scientist": 2},
+		"uniques": [
+			"Required building is [Library]",
+			"[+3 Science] from [Jungle] tiles [in this city]",
+			"[-25]% Science cost of technologies [in this city]",
+			"[+1 Science] from every [Building] [in this city]"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Chip Market",
+		"replaces": "Market",
+		"uniqueTo": "Samsung",
+		"gold": 4,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 33},
+		"uniques": [
+			"[+2 Gold] from [Coal] tiles [in this city]",
+			"[+2 Gold] from [Aluminum] tiles [in this city]",
+			"[+1 Gold] from every [2] Technologies [in this city]",
+			"[-20]% Gold cost of purchasing items [in this city]"
+		],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Smart Granary",
+		"replaces": "Granary",
+		"uniqueTo": "Samsung",
+		"food": 3,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+2 Food] from [Wheat] tiles [in this city]",
+			"[+1 Science] per [5] Population [in this city]",
+			"[+1 Production] per [5] Population [in this city]"
+		],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Cyber Harbor",
+		"replaces": "Harbor",
+		"uniqueTo": "Samsung",
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water",
+			"Must be next to [Coast]",
+			"[+25]% Production when constructing [Water] units [in this city]",
+			"[+2 Science] from [Fish] tiles [in this city]"
+		],
+		"requiredTech": "Compass"
+	},
+	{
+		"name": "Display Museum",
+		"replaces": "Museum",
+		"uniqueTo": "Samsung",
+		"culture": 6,
+		"specialistSlots": {"Artist": 2},
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Required building is [Opera House]",
+			"Required tech is [Archaeology]",
+			"Destroyed when the city is captured",
+			"[+2 Science] from [All] Great Works [in this city]",
+			"[+1 Culture] from [Electricity] tiles [in this city]"
+		],
+		"requiredTech": "Archaeology"
+	},
+	{
+		"name": "R&D Center",
+		"uniqueTo": "Samsung",
+		"cost": 400,
+		"science": 6,
+		"production": 2,
+		"culture": 2,
+		"maintenance": 4,
+		"hurryCostModifier": 0,
+		"specialistSlots": {"Scientist": 2, "Engineer": 1},
+		"uniques": [
+			"Required building is [Research Lab]",
+			"Required tech is [Plastics]",
+			"[-25]% cost of constructing [Spaceship part] units [in this city]",
+			"[+1 Science] from [Aluminum] tiles [in this city]",
+			"Free [Great Scientist] appears"
+		],
+		"requiredTech": "Robotics"
+	},
+	{
+		"name": "Processor Workshop",
+		"uniqueTo": "Samsung",
+		"cost": 200,
+		"production": 4,
+		"science": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"specialistSlots": {"Engineer": 1},
+		"uniques": [
+			"Required building is [Windmill]",
+			"Required tech is [Economics]",
+			"[+25]% Production when constructing [All] units [in this city]",
+			"[+1 Science] per [2] Production [in this city]"
+		],
+		"requiredTech": "Economics"
+	},
+
+	{
+		"name": "Taipei 101 Tower",
+		"uniqueTo": "Tayvan",
+		"cost": 500,
+		"isWonder": true,
+		"culture": 4,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"gold": 4,
+		"happiness": 3,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Gold] from every [Trade Route] [in all cities]",
+			"[-15]% Unhappiness from [Population] [in all cities]",
+			"[-10]% cost of constructing [Water] units [in all cities]"
+		],
+		"requiredTech": "Radio"
+	},
+	{
+		"name": "Taiwan Strait Harbor",
+		"replaces": "Harbor",
+		"uniqueTo": "Tayvan",
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water",
+			"Must be next to [Coast]",
+			"[+2 Gold] from [Fish] tiles [in this city]",
+			"[+2 Gold] from [Crabs] tiles [in this city]",
+			"[+1] Sight <for [Water] units> <starting from the [Medieval] era>"
+		],
+		"requiredTech": "Compass"
+	},
+	{
+		"name": "Bamboo Fortress",
+		"replaces": "Walls",
+		"uniqueTo": "Tayvan",
+		"cityStrength": 8,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Required tech is [Masonry]",
+			"Destroyed when the city is captured",
+			"[+25]% Strength <when defending> <for [All] units> <within [2] tiles of this [City]>",
+			"[-15]% cost of constructing [Military] units [in this city]"
+		],
+		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Tea Plantation Granary",
+		"replaces": "Granary",
+		"uniqueTo": "Tayvan",
+		"food": 3,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+2 Food] from [Wheat] tiles [in this city]",
+			"[+1 Culture] from [Wine] tiles [in this city]",
+			"[+1 Happiness] [in this city]"
+		],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "High-Tech University",
+		"replaces": "University",
+		"uniqueTo": "Tayvan",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 40},
+		"specialistSlots": {"Scientist": 2},
+		"uniques": [
+			"Required building is [Library]",
+			"[+3 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Coast] tiles [in this city]",
+			"[+2 Science] from [River] tiles [in this city]"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Sun Moon Lake Temple",
+		"replaces": "Temple",
+		"uniqueTo": "Tayvan",
+		"culture": 4,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"specialistSlots": {"Artist": 1},
+		"uniques": [
+			"Required building is [Monument]",
+			"Destroyed when the city is captured",
+			"[+1 Faith] from [Lakes] tiles [in this city]",
+			"[+2 Culture] from [Lakes] tiles [in this city]",
+			"[+1 Happiness] from every [2] Faith [in this city]"
+		],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Night Market",
+		"replaces": "Market",
+		"uniqueTo": "Tayvan",
+		"gold": 3,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 30},
+		"uniques": [
+			"[+1 Gold] from every [2] Population [in this city]",
+			"[+1 Culture] from every [2] Population [in this city]",
+			"[-15]% Gold cost of purchasing buildings [in this city]",
+			"Allied [City-States] provide [+1] Gold and [+1] Culture [in this city]"
+		],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "TSMC Foundry",
+		"replaces": "Factory",
+		"uniqueTo": "Tayvan",
+		"cost": 360,
+		"production": 5,
+		"science": 2,
+		"percentStatBonus": {"production": 15},
+		"specialistSlots": {"Engineer": 2, "Scientist": 1},
+		"uniques": [
+			"Required building is [Workshop]",
+			"Required resource is [Coal]",
+			"Required tech is [Steam Power]",
+			"[+1 Science] from [Coal] tiles [in this city]",
+			"[+2 Production] from [Aluminum] tiles [in this city]",
+			"[+25]% Production when constructing [Spaceship part] units [in this city]"
+		],
+		"maintenance": 3,
+		"hurryCostModifier": 0
+	},
+	{
+		"name": "Alishan Garden",
+		"replaces": "Garden",
+		"uniqueTo": "Tayvan",
+		"cost": 100,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"[+25]% Great Person generation [in this city]",
+			"Must be next to [Fresh water]",
+			"[+1 Culture] from [Forest] tiles [in this city]",
+			"[+1 Happiness] from [Lakes] tiles [in this city]",
+			"Empire enters a [Golden Age] <when built> [in this city]"
+		],
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Indigenous Village",
+		"uniqueTo": "Tayvan",
+		"cost": 120,
+		"happiness": 3,
+		"food": 1,
+		"culture": 2,
+		"gold": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Must not be on [Desert]",
+			"[+1 Food] from [Forest] tiles [in this city]",
+			"[+1 Culture] from [Jungle] tiles [in this city]",
+			"[-10]% Unhappiness from [Population] [in this city]",
+			"New [Military] units start with [5] XP [in this city]"
+		],
+		"requiredTech": "Trapping"
+	}
+]

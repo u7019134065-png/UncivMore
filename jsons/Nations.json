@@ -1,0 +1,135 @@
+[
+	{
+		"name": "Ukraine",
+		"leaderName": "Volodymyr Zelenskyy",
+		"adjective": ["Ukrainian"],
+		"startBias": ["Plains", "Grassland"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "Вітаємо, пане Президенте Володимире Зеленський! Україна — це земля широких степів, багатих полів та гордіїсті народу, який завжди боровся за свою свободу. Від козаків сформованих на Запорізькій Січі до сучасних героїв, український дух ніколи не зламлювався. Ваш народ дійсно знає, що таке боротьба за незалежність, і готовий знову засяяти на світовій арені.",
+		"startIntroPart2": "Президенте Зеленський, чи зможете ви перетворити українські степи на могутню імперію, де кожен город буде світитися, як Київські купола? Чи зможе ваша нація згодом прославитися на весь світ?",
+		"declaringWar": "Свобода — наша зброя! Готуйтеся до бою, окупанте!",
+		"attacked": "Нападаєте? Добре. Ми знаємо, як захищати свою землю!",
+		"defeated": "Зараз ми відступили... але пам'ять про нашу боротьбу залишиться навіки!",
+		"denounced": "Ваші слова — це тільки шум. Ми їх не чуємо.",
+		"introduction": "Вітаю! Я — Володимир Зеленський, Президент України. Ми любимо мир, але не злякаємося і битви.",
+		"neutralHello": "Привіт!",
+		"hateHello": "Що вам потрібно від нас?",
+		"tradeRequest": "Давайте укладати чесну угоду. Україна цінує справедливість.",
+		"outerColor": [0, 87, 184],
+		"innerColor": [255, 213, 0],
+		"uniqueName": "Козацька Душा",
+		"uniques": [
+			"[-15]% cost of purchasing [Military] units [in all cities]",
+			"[+1] Sight <for [Land] units>",
+			"[+25]% Strength <when defending> <for [All] units> <within [2] tiles of a friendly [City]>",
+			"[+2 Culture] from [Wheat] tiles [in all cities]",
+			"Start with [Bronze Working]",
+			"[Military] units heal [10] HP when defeating a [Barbarian] unit"
+		],
+		"cities": [
+			"Київ", "Львів", "Харків", "Одеса", "Дніпро", "Запоріжжя", "Кривий Ріг", "Миколаїв", "Донецьк", "Севастополь",
+			"Чернігів", "Полтава", "Херсон", "Тернопіль", "Івано-Франківськ", "Луцьк", "Ужгород", "Чернівці", "Вінниця", "Житомир",
+			"Суми", "Черкаси", "Кропивницький", "Кременчук", "Маріуполь", "Бердянськ", "Сімферополь", "Ялта", "Костянтинівка", "Бахмут",
+			"Слов'янськ", "Краматорськ", "Горлівка", "Макіївка", "Авдіївка", "Покровськ", "Мирноград", "Уrmann", "Нікополь", "Першотравенськ"
+		]
+	},
+	{
+		"name": "Cheaters",
+		"leaderName": "Unknown Hacker",
+		"adjective": ["Cheater"],
+		"startBias": ["Hill", "Desert"],
+		"preferredVictoryType": "Scientific",
+		"startIntroPart1": "Незнайомець, ви потрапили в світ, де правила існують лише для слабких! Народ Cheaters здавна віддавав перевагу хитрості, обману та інженії замість прямої боротьби. Вони вважають, що всі ресурси світу належать їм за замовчуванням, а перемога досягається тим, хто краще вміє ламати системи.",
+		"startIntroPart2": "Невідомий Хакер, чи зможете ви збудувати імперію, де кожен ваш ворог зазнає поразки ще до початку битви? Чи буде вашіт код правдою, а всі інші — тільки багами в системі?",
+		"declaringWar": "Ви завантажили файл winner.exe? Ні, ви завантажили virus.bat!",
+		"attacked": "О, ви справді хочете битви? Ок, я використовую чіт-код невмирухість!",
+		"defeated": "Невже... це баг? Я подаю апеляцію! *закриває гру*",
+		"denounced": "Ваш код не composting. Ви отримаєте warning.",
+		"introduction": "Hello there. I'm the guy who knows all console commands. Want to be friends? I can give you free gold... if you turn off your antivirus.",
+		"neutralHello": "What's up, player?",
+		"hateHello": "Oh no, you found me! *activates wallhack*",
+		"tradeRequest": "I can give you 500 gold for 1 horse. Trust me, it's a fair trade. *wink*",
+		"outerColor": [15, 15, 15],
+		"innerColor": [255, 215, 0],
+		"uniqueName": "Dirty Tricks",
+		"uniques": [
+			"[+50]% Gold from pillaging [Cities]",
+			"[+1] Gold [in all cities] for every [2] technologies researched",
+			"[+25]% Production when constructing [Spy] units [in all cities]",
+			"[-50]% cost of purchasing buildings [in all cities]",
+			"[Military] units start with the [Ambush] promotion",
+			"Gain [50] Gold when a [Military] unit is born [in all cities]"
+		],
+		"cities": [
+			"Cheatville", "Haxoria", "Glitchtop", "Bug City", "Lagland", "Scriptkeep", "Modtown", "Exploitica", "Pawnstar", "Debugopolis",
+			"Cheatcode", "Savegen", "Infspawn", "Noclimb", "Skipturn", "Aistar", "Lootbay", "Scamville", "Duped", "Gloomhaven",
+			"Wallhack", "Speedrun", "TASville", "Botopia", "MacroCity", "Scripted", "RNGland", "Hitbox", "Aimbot", "Taphold"
+		]
+	},
+	{
+		"name": "Samsung",
+		"leaderName": "Lee Kun-hee",
+		"adjective": ["Samsungian"],
+		"startBias": ["Hill", "Coast"],
+		"preferredVictoryType": "Scientific",
+		"startIntroPart1": "Вітаємо, председатель Лі Кон Хі! Samsung — це не просто корпорація, а ціла цивілізація інновацій. Від мікросхем до смартфонів, від дисплеїв до найпотужніших чипів — ваш народ керується духом технологічного домінування. Кожен будинок, кожен завод, кожен науковий центр Samsung прагне до досконалості, і ця енергія тепер на ваших очах!",
+		"startIntroPart2": "Лі Кон Хі, чи зможете ви перетворити світ на бездоганний екран, на якому ваша нація займе перше місце? Чи будуть ваші чипи працювати швидше за будь-якого суперника?",
+		"declaringWar": "Наша технологія набагато вища за вашу! Підкорюйтеся!",
+		"attacked": "Атакуєте? Добре. Ми вже розробили прототип протилежного дрона.",
+		"defeated": "Системний збій... перезавантаження... будь-ласка, зачекайте... *екран чорний*",
+		"denounced": "Ваші продукти не відповідають нашому стандарту якості.",
+		"introduction": "Привіт! Я — Лі Кон Хі, CEO Samsung. У нас є все: від телефонів до космічних кораблів. Хочете подивитися наш каталог?",
+		"neutralHello": "Привіт! Що нового в світі технологій?",
+		"hateHello": "Знову ви? Наші сенсори вже попередили про ваш підхід.",
+		"tradeRequest": "Ось наша пропозиція. Гарантовано найкраща ціна — або повернемо гроші!",
+		"outerColor": [0, 48, 135],
+		"innerColor": [0, 114, 206],
+		"uniqueName": "Tech Empire",
+		"uniques": [
+			"[+2 Science] from every [Factory] [in all cities]",
+			"[+15]% Production when constructing [All] units [in all cities]",
+			"[+1 Gold] from every [Strategic resource] [in all cities]",
+			"[+100]% Great Scientist points [in all cities]",
+			"[Military] units ignore terrain cost <when moving into [Hill] tiles>",
+			"Receive a free [Great Scientist] <upon discovering [Computers]>"
+		],
+		"cities": [
+			"Samsung City", "Tech Valley", "Silicon Park", "Chip Town", "Displayton", "Semiconductor", "Componenta", "Foundry City", "Waferton", "Panel Bay",
+			"Circuit City", "Innoville", "Techtopia", "Processoria", "Fabland", "Chipset", "DRAM City", "NAND Bay", "OLEDton", "QLED City",
+			"Processor Park", "Hardware Heights", "Software Springs", "Digital Domain", "Chip Valley", "Smart City", "Robotown", "AI Central", "Cloud Base", "Cyber Park"
+		]
+	},
+	{
+		"name": "Tayvan",
+		"leaderName": "Tsai Ing-wen",
+		"adjective": ["Taiwanese"],
+		"startBias": ["Coast", "Jungle"],
+		"preferredVictoryType": "Diplomatic",
+		"startIntroPart1": "Вітаємо, пані Цай Інвень! Тайвань — острівна нація з багатою культурою, красивими горами та стійким народом. Від чаю Альішань до вогнів Тайбєя, Тайвань завжди був місцем, де східна мудрість зустрічається з сучасністю. Ваші люди відомі своєю гостинністю, технологічними досягненнями та непохитною вірою в демократію.",
+		"startIntroPart2": "Пані Цай, чи зможете ви перетворити Тайваньську протею на могутню морську державу, яка об'єднує світ торгівлею та миром? Чи будуть ваші кораблі плинні, як водойми навколо острова?",
+		"declaringWar": "Ми не хочемо війни... але якщо ви на нас нападаєте, ми захищатимемо наш дім до кінця!",
+		"attacked": "Нападаєте на нас? Наші fisherman turned patriots готові до захисту!",
+		"defeated": "Ми зараз відступили... але Тайвань завжди повертається.",
+		"denounced": "Ваша поведінка не личить справжньому лідеру.",
+		"introduction": "Привіт! Я — Цай Інвень, Президент Тайваню. Ми любимо мир, їжу та вільну торгівлю.",
+		"neutralHello": "Привіт! Хочете чаю?",
+		"hateHello": "Знову ви? Ми вже попередили вас стосункно берегової лінії.",
+		"tradeRequest": "Ось угода з Тайваню. Гарантуємо якість і швидкість доставки!",
+		"outerColor": [0, 155, 58],
+		"innerColor": [0, 0, 140],
+		"uniqueName": "Острівна Фортеця",
+		"uniques": [
+			"[+15]% Yield from [Coast] tiles [in all cities]",
+			"[+1] Movement <for [Water] units>",
+			"[+2 Gold] from every [Trade Route] [in all cities]",
+			"[+25]% Strength <when defending> <for [Water] units>",
+			"[-25]% cost of constructing [Harbor] buildings [in all cities]",
+			"[+1 Culture] from every [Lakes] tiles [in all cities]"
+		],
+		"cities": [
+			"Тайбей", "Гаосюн", "Тачун", "Тайнан", "Сіньчжу", "Кілунг", "Цзяї", "Хуалянь", "Тайтун", "Наньтао",
+			"Ілань", "Піндун", "Чжанхуа", "Юньлін", "Мяолі", "Таоянь", "Синьбей", "Хенчун", "Пенгху", "Цзіньмень",
+			"Мацзу", "Острів Орхідей", "Зелений Острів", "Ланю", "Сун Мун Лейк", "Алішань", "Тароко", "Кентінг", "Даньшуй", "Цзілун"
+		]
+	}
+]
